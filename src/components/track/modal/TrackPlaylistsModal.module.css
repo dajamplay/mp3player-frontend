@@ -1,0 +1,28 @@
+.container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: calc((var(--real-vh) * 100) - 85px);
+    background-color: rgba(51, 51, 51, 0.95);
+    z-index: 10;
+    transition: right 0.3s ease;
+    overflow: hidden;
+}
+
+.headerContainer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.playlistContainer {
+    color: #eeeeee;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.21);
+    cursor: pointer;
+    text-align: center;
+}

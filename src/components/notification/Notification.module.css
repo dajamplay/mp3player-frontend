@@ -1,0 +1,47 @@
+.container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 5px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #eee;
+    z-index: 1120;
+    transition: top 0.3s ease-in-out;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.message {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.closeButton svg {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    color: #333;
+}
+
+.closeButton:hover {
+    background-color: transparent;
+    color: #c22626;
+}

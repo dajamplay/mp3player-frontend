@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Пример расширения",
+  "version": "1.0",
+  "description": "Это пример расширения для Google Chrome",
+  "permissions": [
+    "bookmarks", "tabs"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
+

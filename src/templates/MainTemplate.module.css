@@ -1,0 +1,7 @@
+.container {
+    margin-top: 50px;
+    margin-bottom: 85px;
+    height: calc((var(--real-vh) * 100) - 85px - 50px);
+    overflow-y: auto;
+    background-color: transparent;
+}

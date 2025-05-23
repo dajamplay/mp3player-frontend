@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tracksFilterContainer {
+    display: flex;
+    height: 40px;
+    margin: 0 3px 5px 3px;
+}
+
+.tracksFilterInput {
+    flex: 1;
+    background-color: #555;
+    border: 1px solid transparent;
+    color: #eee;
+    font-size: 22px;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+}
+
+.tracksFilterInput:focus {
+    border: 1px solid #999;
+    outline: none;
+}
+
+.tracksFilterButton {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 5px;
+    height: 40px;
+}
+
+.tracksFilterButton:hover {
+    background-color: #f1573b;
+}
+
+.tracksFilterButton svg {
+    width: 24px;
+    height: 24px;
+    color: #ddd;
+}
+
+.paginationContainer {
+
+}

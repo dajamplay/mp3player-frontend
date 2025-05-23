@@ -1,0 +1,19 @@
+.loadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Начальное состояние */
+    }
+    to {
+        transform: rotate(360deg); /* Конечное состояние */
+    }
+}
+
+.loadingSpinner svg {
+    color: tomato;
+    animation: spin 1s linear infinite;
+}

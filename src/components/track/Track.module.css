@@ -1,0 +1,147 @@
+.container {
+    cursor: pointer;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 1px;
+    margin-bottom: 2px;
+    background-color: #222;
+    position: relative;
+    width: 100%;
+}
+
+.container:hover .controlContainer {
+    display: flex;
+}
+
+@media (min-width: 700px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1050px) {
+    .container {
+        width: 33.3333%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1750px) {
+    .container {
+        width: 20%;
+    }
+}
+
+
+.containerBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+    transition: left 1s ease;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageContainer {
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+.image {
+    height: 50px;
+    width: 50px;
+    /*border-radius: 0 25px 25px 0;*/
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imageGif {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    top: 0;
+}
+
+.controlContainer {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    display: none;
+    /*background-color: rgba(51, 51, 51, 0.7);*/
+    background-color: rgba(255, 99, 71, 0.9);
+    border-radius: 25px;
+}
+
+.titleContainer {
+    flex: 1;
+    overflow: hidden;
+    color: #eee;
+    padding: 5px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    /*background-color: red;*/
+}
+
+.titleName {
+    color: #ddd;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.titleArtist {
+    color: #888;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.durationContainer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duration {
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 3px;
+    padding: 0 3px;
+    margin: 3px;
+    color: #888;
+    font-size: 12px;
+}
+
+.durationSeparator {
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 3px;
+    padding: 0 1px;
+    margin: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+
