@@ -1,12 +1,13 @@
-# React + Vite
+# WEB Клиент для mp3player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
 
-Currently, two official plugins are available:
+React клиент для mp3player https://github.com/dajamplay/mp3player-backend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Установка
 
-## Expanding the ESLint configuration
+В **src/axios.js** прописать baseURL для сервера https://github.com/dajamplay/mp3player-backend
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- собрать проект **npm run build**
+- для локальной разработки **npm run watch**
+- для интеграции с **wordpress** файлы из папки **dist** (app.js и app.css) поместисть в wordpress **тема/react/build** https://github.com/dajamplay/mp3player-backend

@@ -2,8 +2,7 @@ import axios from 'axios';
 
 // Создаем экземпляр axios с базовой настройкой
 const apiClient = axios.create({
-    // baseURL: 'http://localhost/wp-json/custom/v1/', // Базовый URL REST API WordPress
-    baseURL: 'https://music.maks-site.ru/wp-json/custom/v1/', // Базовый URL REST API WordPress
+    baseURL: 'http://localhost/wp-json/custom/v1/', // Базовый URL REST API WordPress
     headers: {
         'Content-Type': 'application/json',
     },
